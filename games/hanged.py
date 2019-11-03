@@ -30,7 +30,7 @@ def play():
     if(hit):
         print_message_message()
     else:
-        print_reader_message(secret_word)
+        print_loser_message(secret_word)
 
 
 def pass_hanged(mistakes):
