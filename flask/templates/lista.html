@@ -12,14 +12,13 @@
         </div>
         <table class="table table-striped table-responsive table-bordered">
             <thead class="thead-default">
+            {% for game in game %}
                 <tr>
-                    <th>Name</th>
+                    <td>{{ game.name }}</td>
+                    <td>{{ game.category }}</td>
+                    <td>{{ game.console }}</td>
                 </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>God of War</td>
-                </tr>
+            {% endfor %}
             </tbody>
         </table>
     </div>
