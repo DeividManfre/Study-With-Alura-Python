@@ -8,9 +8,6 @@ class game:
         self.category = category
         self.console = console
 
-
-
-
 @app.route('/')
 def hello():
     game1 = game('Super Mario', 'Acao', 'SNES')
