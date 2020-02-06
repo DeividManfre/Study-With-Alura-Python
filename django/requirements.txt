@@ -10,7 +10,7 @@ ChatterBot==1.0.5
 chatterbot-corpus==1.2.0
 configobj==5.0.6
 configparser==3.5.0
-cryptography==2.1.4
+cryptography==2.3
 cymem==2.0.2
 enum34==1.1.6
 funcsigs==1.0.2
